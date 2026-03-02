@@ -196,4 +196,4 @@ async def on_ready():
     await bot.tree.sync()
     print(f"🔥 Bot ligado como {bot.user}")
 # ================= RUN =================
-bot.run(os.getenv("f2efd1e4463625b68d1b0459dc5ef32adf3817a11198f6d02a0172b8377794c0"))
+bot.run(os.getenv("TOKEN"))
